@@ -1,0 +1,16 @@
+# Reportes académicos y plantillas (Typst/PDF)
+informe.pdf
+informe.typ
+univalle_report.typ
+logo_univalle.svg
+*.typ
+*.pdf
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.vscode/
+.idea/

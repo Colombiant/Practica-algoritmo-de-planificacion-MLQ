@@ -1,0 +1,11 @@
+# archivo: mlq006.txt
+# esquema: Q1=RR(3), Q2=RR(5), Q3=Priority no expropiativo
+# etiqueta; BT; AT; Q; Pr; WT; CT; RT; TAT
+F;10;0;3;5;38;48;38;48
+G;6;0;1;4;3;9;0;9
+H;25;0;2;3;13;38;13;38
+I;7;0;1;2;6;13;3;13
+J;14;0;3;1;48;62;48;62
+# WT=21.60; CT=34; RT=20.40; TAT=34;
+# linea de tiempo: proceso[inicio-fin](cola)
+# G[0-3](Q1) -> I[3-6](Q1) -> G[6-9](Q1) -> I[9-12](Q1) -> I[12-13](Q1) -> H[13-18](Q2) -> H[18-23](Q2) -> H[23-28](Q2) -> H[28-33](Q2) -> H[33-38](Q2) -> F[38-48](Q3) -> J[48-62](Q3)
